@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.h1 {
+  text-align: center;
+  background-color: rgb(18, 139, 109);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.table , td , th  {
+  justify-content: center;
+  border: 2px solid;
+  width: 5%;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(18, 139, 109);
+  color: aliceblue;
+   
+}
+table , th , td :hover {
+  background-color: #fcfcfc;
+  color: rgb(18, 139, 109);
+}
+.active {
+  background-color: #fcfcfc;
+  color: rgb(18, 139, 109);
+}
+
+
+ .delete{
+  background-color: rgb(155, 24, 24);
+  color: aliceblue;
+ }
+
+ .edit{
+  background-color: rgba(3, 107, 3, 0.836);
+  color:aliceblue ;
+ }
+ 
+ .search{
+  width: 150px;
+  margin: 50px;
+  height: 25px;
+  padding-left: 30px;
+  border: double 2px rgb(36, 46, 51);
+  justify-content: center;
+
+ }
+
+ .nav {
+  align-items: left;
+ }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(18, 139, 109);
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #fcfcfc;
+  color: rgb(18, 139, 109);
+}
+.active {
+  background-color: #fcfcfc;
+  color: rgb(18, 139, 109);
+}
+
+.product-list{
+  text-align: center;
+  margin-top:  50px;
+  color: white;
+
+  
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid rgb(18, 139, 109);
+  padding:  5px;
+  width: 150px;
+
+}
